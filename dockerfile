@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 3000
 
 # 6. La commande de lancement
-CMD ["node", "app.js"]
+CMD ["npx", "nodemon", "app.js"]
